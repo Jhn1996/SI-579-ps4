@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family:'Poppins', sans-serif;
+    height: 100%;
+    margin: 0px 50px;
+    padding: 50px;
+    overflow-x: hidden; 
+  }
+
+  h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #765980;
+  }
+
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #765980;
+    margin: 20px 0px 0px 0px;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+  }
+
+  h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+  }
+
+  ul{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  a{
+    color: #765980;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+  float: left;
+  /* padding: 10px; */
+  }
+  
+  .left {
+    width: 70%;
+    padding: 40px 100px;
+    background-color:#D6CBD9;
+
+  }
+  
+  .right {
+    width: 30%;
+    padding: 40px 90px;
+    background-color:#F7EEF3;
+  }
+
+  .column-header-left{
+    width: 70%;
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  .column-header-right{
+    width: 30%;
+    float: left;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .non-bullet-list{
+    list-style-type: none;
+    margin-top: 50px;
+    font-family:'Poppins', sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+  }
+
+  .dates{
+    color:#666666;
+  }
+
+/* created darkmode switch */
+.dark-mode{
+  background-color:black;
+  font-family:'Poppins', sans-serif,white;
+  filter: invert(1) hue-rotate(180deg);
+}

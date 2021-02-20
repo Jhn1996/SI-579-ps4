@@ -1,2 +1,2 @@
-# SI-579-ps4
-Made a darkmode of the resume, and add a mouseover and mouseout event for changing names from english to chinese
+# SI579
+WN 2021 SI579 Building interactive applications
